@@ -3,7 +3,7 @@ import React from 'react';
 export default function QuoteBox({ quote, handleNewQuote }) {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen">
-      <div className="p-8 max-w-md mx-auto bg-white shadow-md rounded-md">
+      <div className="p-8 max-w-md mx-auto bg-white shadow-2xl rounded-md">
         <section>
           <h3 className="my-8 text-start">
             <p className="text-2xl font-bold">
@@ -24,7 +24,7 @@ export default function QuoteBox({ quote, handleNewQuote }) {
           <a
             href="https://twitter.com/intent/tweet"
             target="blank"
-            className="w-full md:w-auto px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none mb-4 md:mb-0"
+            className="w-full md:w-auto px-4 py-2 text-white text-center bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none mb-4 md:mb-0"
           >
             Tweet
           </a>
