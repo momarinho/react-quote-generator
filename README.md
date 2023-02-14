@@ -1,4 +1,4 @@
-<img src='../assets/quote.png'/>
+<img src='./assets/quote.png'/>
 
 # Getting Started with Create React App
 ## Available Scripts
